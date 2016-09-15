@@ -57,9 +57,9 @@ public class DinoDotDat extends JPanel {
 				System.out.println(cont);
 				System.out.println(pontoAtual);
 			}
-			g.fillPolygon(polygon);
 			//pontoAtual++;???
 		}
+		g.drawPolygon(polygon);
 //		Polygon polygon = new Polygon(xValues, yValues, qtdDeLinhas);
 //		polygon.addPoint(x, y);
 //		g.drawPolygon(polygon);
